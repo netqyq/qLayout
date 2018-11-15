@@ -10,7 +10,10 @@ $ ./start.sh
 
 examples
 
+### screen (min-width: 800)
 ![](images/Basic-Layout-screen-800px-plus.png)
+
+### screen (max-width: 800)
 ![](images/Basic-Layout-screen-less-800px.png)
 
 ## layout.html
