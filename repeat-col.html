@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- justify content in item vertical align -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Repeat columns</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      height: 100px;
+      display: flex;
+      align-items: center;
+    }
+
+    .wrapper {
+      display: grid;
+      /* grid-template-columns: repeat(4, 1fr) */
+      grid-template-columns: repeat(auto-fill, minmax(60px,200px));
+      justify-items: center ;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="box"><span>1</span></div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+  </div>
+
+
+
+</body>
+
+</html>
