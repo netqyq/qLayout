@@ -8,14 +8,16 @@ $ npm i live-server
 $ ./start.sh
 ```
 
-examples
+## Examples
 
-### screen (min-width: 800)
+screen (min-width: 800)
 ![](images/Basic-Layout-screen-800px-plus.png)
 
-### screen (max-width: 800)
+screen (max-width: 800)
 ![](images/Basic-Layout-screen-less-800px.png)
 
-## layout.html
+### layout.html
 This is a example of responsive html home page. Using CSS Grid and flex.
 
+## Resources
+[gridbyexample](https://gridbyexample.com/)
